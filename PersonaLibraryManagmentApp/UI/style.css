@@ -1,0 +1,94 @@
+﻿body {
+}
+
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    width: 960px;
+    float: left;
+}
+
+.logo {
+    width: 560px;
+    height: 100px;
+    float: left;
+    background: red;
+}
+
+.banner {
+    width: 400px;
+    height: 100px;
+    background: brown;
+    float: left;
+}
+
+nav {
+    width: 960px;
+    float: left;
+}
+
+    nav ul li {
+        display: inline;
+    }
+
+        nav ul li a {
+            width: 190px;
+           display: inline-block;
+            border: 1px solid black;
+            background: cornflowerblue;
+            float: left;
+            text-align: center;
+            padding: 10px 0;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav ul li a:hover {
+            background: white;
+            color: cornflowerblue;
+        }
+.container {
+    width: 960px;
+    height: 460px;
+    background: gray;
+    float: left;
+}
+.contain {
+    width: 700px;
+    float: left;
+    
+}
+aside {
+    width: 260px;
+    float: left;
+}
+.contain table{ margin: 50px 0;}
+aside section {
+    width: 258px;
+    border: 1px solid black;
+
+}
+aside section h1 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-family: 'Slabo 27px', serif;
+}
+aside section p {
+    border-bottom: 1px solid black;
+}
+footer {
+    width: 960px;
+    font-weight: bold;
+    text-align: center;
+    background: blueviolet;
+    color: white;
+    padding: 5px 0;
+    clear: both;
+}
